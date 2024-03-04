@@ -30,10 +30,10 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    color: '#000000', // Set the text color to black
+    color: '#000000', 
     marginRight: 13,
-    borderWidth: 1, // Border thickness
-    borderColor: '#ECECEC', // Border color
+    borderWidth: 1, 
+    borderColor: '#ECECEC', 
   },
   headerText: {
     fontSize: 38,
@@ -196,7 +196,7 @@ const WeatherForecast = ({ getWeatherQuery }) => {
         horizontal
         showsHorizontalScrollIndicator={false}
         pagingEnabled
-        snapToInterval={200} // Adjust this value based on your card width
+        snapToInterval={200} 
         decelerationRate="fast"
         onLayout={(event) => {
           const { width } = event.nativeEvent.layout;
